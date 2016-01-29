@@ -16,7 +16,26 @@ html {
   box-sizing: inherit;
 }
 
+.left-ear {
+  transition: all .1s linear;
+  transform-origin: 100px 80px;
+}
+
+.right-ear {
+  transition: all .1s linear;
+  transform-origin: -100px -80px;
+}
+
+@keyframes shiftyeyes {
+
+  0% {transform: rotate(0deg)}
+
+}
+
 .st0{fill:#673200;}
+
 .st1{fill:#FFAACA;}
+
 .st2{fill:#C65B00;}
+
 .st3{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
